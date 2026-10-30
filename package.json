@@ -1,0 +1,12 @@
+{
+  "name": "playwright-snapshot-names-repro",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "repro": "playwright test",
+    "repro:cli": "bash repro-cli.sh"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.64.1"
+  }
+}

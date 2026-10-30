@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="en">
+<title>Snapshot names repro</title>
+<main>
+  <section aria-label="Labelled by attribute"><h2>Heading A</h2></section>
+  <section aria-labelledby="hb"><h2 id="hb">Heading B</h2><p>body</p></section>
+  <h2 id="hc">Heading C outside</h2><section aria-labelledby="hc"><p>body C</p></section>
+  <section aria-labelledby="hd"><h2>Inner title</h2><span id="hd" hidden>Hidden label D</span></section>
+  <nav aria-labelledby="he"><h2 id="he">Nav E</h2><a href="#e">link</a></nav>
+  <dialog open aria-labelledby="hf"><h2 id="hf">Delete item?</h2><button>OK</button></dialog>
+  <table><thead><tr><th><button>Price</button></th><th>Stock</th></tr></thead><tbody><tr><td>1</td><td>2</td></tr></tbody></table>
+  <table><caption>Monthly totals</caption><tr><td>1</td></tr></table>
+</main>
